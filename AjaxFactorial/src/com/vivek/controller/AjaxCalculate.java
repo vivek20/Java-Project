@@ -28,7 +28,7 @@ public class AjaxCalculate extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		
+		System.out.println("Hello");
 		int i,j,k;
 		long f=1,v=1;
 		int number=Integer.parseInt(request.getParameter("number"));
