@@ -30,7 +30,7 @@ public class AjaxCalculate extends HttpServlet {
 		
 		
 		int i,j,k;
-		long f=1;
+		long f=1,v=1;
 		int number=Integer.parseInt(request.getParameter("number"));
 		PrintWriter out=response.getWriter();
 		
